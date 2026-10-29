@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Projects · S. Rahul</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="index.html">S. Rahul</a>
+    <nav aria-label="Pages">
+      <a href="index.html">Home</a>
+      <a href="experience.html">Experience</a>
+      <a href="projects.html" class="active" aria-current="page">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+  <section class="page-intro" id="projects">
+    <div class="sec-head">
+      <h2>Projects</h2>
+      <div class="sec-body">
+        <article class="project feature">
+          <span class="badge">Featured · Full-stack</span>
+          <h3>RAG-Based PDF Chatbot</h3>
+          <div class="tag-row"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">React</span><span class="tag">LLM APIs</span></div>
+          <div class="flow" aria-label="Pipeline">
+            <span>PDF + OCR</span><span>Figure captions</span><span>Hybrid retrieval</span><span>Cross-encoder rerank</span><span>LLM with fallback</span><span>Cited answer</span>
+          </div>
+          <ul>
+            <li>Built a full-stack Retrieval-Augmented Generation chatbot for 400+ page technical PDF manuals, using hybrid semantic and keyword retrieval, cross-encoder reranking and cited sources.</li>
+            <li>Developed PDF ingestion with OCR, AI-generated figure captions and citation-aware retrieval.</li>
+            <li>Added a multi-provider LLM fallback system across Groq, OpenRouter, Gemini and Ollama.</li>
+          </ul>
+        </article>
+
+        <div class="grid-2">
+          <article class="project">
+            <h3>Wireless Phone-to-PC Mouse Controller</h3>
+            <div class="tag-row"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Socket.IO</span></div>
+            <ul>
+              <li>Built a phone-to-PC cursor control system with real-time WebSocket communication.</li>
+              <li>Implemented cursor movement and click functionality through a mobile web interface.</li>
+            </ul>
+          </article>
+          <article class="project">
+            <h3>AI-Assisted Telemedicine Kiosk for Rural OPD</h3>
+            <div class="tag-row"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <ul>
+              <li>Developed a web-based healthcare assistance system supporting Aadhaar, QR code and barcode scanning.</li>
+              <li>Implemented authentication and patient record management for rural healthcare environments.</li>
+            </ul>
+          </article>
+        </div>
+
+        <article class="project">
+          <h3>RGAC Virtual University (VRU)</h3>
+          <div class="tag-row"><span class="tag">Unity</span><span class="tag">VR/AR</span><span class="tag">Team project</span></div>
+          <ul>
+            <li>Developed an interactive virtual university environment in Unity, with 3D scenes for virtual learning.</li>
+            <li>Worked collaboratively on a team-based academic VR project.</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer><span>S. Rahul</span><span>Python · AI · Industrial data</span></footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
